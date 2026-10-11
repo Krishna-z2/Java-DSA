@@ -112,5 +112,58 @@ public class basics {
     */
 
     // Operators:-
-    
+    /*
+    public static void main(String[] args) {
+        int num1 = 56;
+        int num2 = 15;
+
+        // Arithmetic Operators:-
+        System.out.println("Addition : "+(num1+num2));
+        System.out.println("Subtraction : "+(num1-num2));
+        System.out.println("Multiply : "+(num1*num2));
+        System.out.println("Division : "+(num1/num2));
+        System.out.println("Remainder : "+(num1%num2));
+
+        // Relational Operators:-
+        System.out.println(num1==num2);
+        System.out.println(num1!=num2);
+        System.out.println(num1>num2);
+        System.out.println(num1<num2);
+        System.out.println(num1>=num2);
+        System.out.println(num1<=num2);
+
+        // Logical Operators:-
+        boolean cdsa = true;
+        boolean ucdsa = false;
+
+        System.out.println(cdsa&&ucdsa);
+        System.out.println(cdsa||ucdsa);
+        System.out.println(!cdsa);
+
+        // Assignment Operators:-
+        int ratingpoints = 100;
+        ratingpoints += 20;
+        System.out.println(ratingpoints);
+        ratingpoints -= 10;
+        System.out.println(ratingpoints);
+        ratingpoints /= 10;
+        System.out.println(ratingpoints);
+        ratingpoints *= 20;
+        System.out.println(ratingpoints);
+        ratingpoints %= 20;
+        System.out.println(ratingpoints);
+
+        // Unary(increment or decrement) Operators:-
+        int number = 50;
+
+        System.out.println(-number);
+        System.out.println(+number);
+        System.out.println(number++);
+        System.out.println(++number);
+        System.out.println(number--);
+        System.out.println(--number);
+    }
+    */
+
+    // Conditionals:-
 }
