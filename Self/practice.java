@@ -96,4 +96,68 @@ public class practice{
         System.out.printf("Temprature in Fahrenheit : %.2f%n ",Fahrenheit);
     }
     */
+
+    // 7. Movie Ticket Price:-
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Age : ");
+        int age = sc.nextInt();
+
+        if(age>=0 && age<=5){
+            System.out.println("Free Ticket");
+        }
+        else if(age>=6 && age<=17){
+            System.out.println("Rupees 100 Ticket");
+        }
+        else if(age>=18 && age<=59){
+            System.out.println("Rupees 200 Ticket");
+        }
+        else if(age>=60){
+            System.out.println("Rupes 120 Ticket");
+        }
+        else{
+            System.out.println("Invalid Age");
+        }
+    }
+    */
+
+    // 8. Scholarship Eligibility
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Marks : ");
+        int marks = sc.nextInt();
+        System.out.println("Enter the Attendance : ");
+        float attendance = sc.nextFloat();
+        System.out.println("Enter the Annual Income : ");
+        long income = sc.nextLong();
+
+        if((marks>=85 && marks<=100) && (attendance>=75 && attendance<=100) && (income<=300000 && income>=0)){
+            System.out.println("Eligible for Scholarship");
+        }
+        else if((marks<0 || marks>100) || (attendance<0 || attendance>100) || income<0){
+            System.out.println("Invalid inputs");
+        }
+        else{
+            System.out.println("Not Eligible");
+        }
+    }
+    */
+
+    // 9. Leap Year Check
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Year : ");
+        int year = sc.nextInt(); 
+
+        if((+year%4==0 && +year%100!=0) || (+year%400==0)){
+            System.out.println("Leap Year!");
+        }
+        else{
+            System.out.println("Not a Leap Year!");
+        }
+    }
+    */
 }

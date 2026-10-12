@@ -166,4 +166,90 @@ public class basics {
     */
 
     // Conditionals:-
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int age = 100;
+        
+        //if:-
+        if(age>=18){
+            System.out.println("Eligible to Vote");
+        }
+
+        //if-else:-
+        int score = 42;
+        if(score >=45){
+            System.out.println("Pass");
+        }
+        else{
+            System.out.println("Fail");
+        }
+
+        //if-else-else if:-
+        int accuracy = 78;
+        if(accuracy<60 && accuracy>30){
+            System.out.println("Not Good");
+        }
+        else if(accuracy>75 && accuracy<90){
+            System.out.println("Good");
+        }
+        else if(accuracy>90){
+            System.out.println("Excellent");
+        }
+        else{
+            System.out.println("Bad");
+        }
+
+        //Nested if-else:-
+        boolean hassubscription = true;
+        int solvescore = 220;
+
+        if(hassubscription){
+            if(solvescore>200){
+                System.out.println("Unlock Advanced Sheet");
+            }
+            else{
+                System.out.println("Practice more Problems");
+            }
+        }else{
+            System.out.println("Upgrade to Premium");
+        }
+
+        //Ternary Operator:-
+        int streak = 29;
+        String status = (streak>=30) ? "Consistent" : "Inconsistent";
+        System.out.println(status);
+
+        //Switch:-
+        System.out.println("Enter day:");
+        int day = sc.nextInt();
+
+        switch (day) {
+            case 1:
+                System.out.println("Mon");
+                break;
+            case 2:
+                System.out.println("Tue");
+                break;
+            case 3:
+                System.out.println("Wed");
+                break;
+            case 4:
+                System.out.println("Thur");
+                break;
+            case 5:
+                System.out.println("Fir");
+                break;
+            case 6:
+                System.out.println("Sat");
+                break;
+            default:
+                System.out.println("Sun");
+                break;
+        }
+    }
+    */
+
+    // Loops:-
 }
