@@ -29,6 +29,7 @@ public class practice{
 
         System.out.println("Area of an Rectangle : "+area);
         System.out.println("Perimeter of an Rectangle : "+perimeter);
+        sc.close();
     }
     */
 
@@ -46,6 +47,7 @@ public class practice{
 
         int avg = (num1 + num2 + num3)/3;
         System.out.println("Avg. of 3 Subject Marks : "+avg);
+        sc.close();
     }
     */
 
@@ -66,6 +68,7 @@ public class practice{
         System.out.println("Salary : "+salary);
         System.out.println("Gross Salary : "+gs);
         System.out.println("Annual Salary : "+as);
+        sc.close();
     }
     */
 
@@ -82,6 +85,7 @@ public class practice{
         System.out.println("Hours : "+hours);
         System.out.println("Minutes : "+minutes);
         System.out.println("Seconds : "+seconds);
+        sc.close();
     }
     */
 
@@ -94,6 +98,7 @@ public class practice{
         float celsius = sc.nextFloat();
         double Fahrenheit = (celsius * (9.0/5.0)) + 32;
         System.out.printf("Temprature in Fahrenheit : %.2f%n ",Fahrenheit);
+        sc.close();
     }
     */
 
@@ -119,6 +124,7 @@ public class practice{
         else{
             System.out.println("Invalid Age");
         }
+        sc.close();
     }
     */
 
@@ -142,6 +148,7 @@ public class practice{
         else{
             System.out.println("Not Eligible");
         }
+        sc.close();
     }
     */
 
@@ -158,6 +165,126 @@ public class practice{
         else{
             System.out.println("Not a Leap Year!");
         }
+        sc.close();
+    }
+    */
+   
+    // 10. Upper Case to Lower Case:-
+    /*
+   public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Alphabet:-");
+        char choice = sc.next().charAt(0);
+
+        if(choice>='a' && choice<='z'){
+            choice = (char)(choice-32);
+            System.out.println("Upper Case : "+choice);
+        }
+        else{
+            System.out.println("Invalid Character!");
+        }
+        sc.close();
+   }
+   */
+
+   // 11. Lower Case to Upper Case:-
+   /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Alphabet:-");
+        char choice = sc.next().charAt(0);
+
+        if(choice>='A' && choice<='Z'){
+            choice = (char)(choice+32);
+            System.out.println("Upper Case : "+choice);
+        }
+        else{
+            System.out.println("Invalid Character!");
+        }
+        sc.close();
+   }
+   */
+  
+   // 12. Print 1 To N:-
+    /*
+   public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the Number : ");
+        int num1 = sc.nextInt();
+        int i = 1;
+
+        System.out.println("Starting from : ");
+        do{
+            System.out.println(i);
+            i++;
+        }while(i<=num1);
+        sc.close();
+   }
+   */
+
+   // 13. Sum of Number from 1 To N:-
+    /*
+      public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the Number : ");
+        int num1 = sc.nextInt();
+
+        int sum = 0;
+        for (int i=1 ; i<=num1 ; i++){
+            if(i%2==0){
+                sum+=i;
+            }else{
+                continue;
+            }
+        }
+        System.out.println("Sum : " + sum);
+
+        sc.close();
+   }
+   */
+
+
+   // 14. Multiplication Table of a Number:-
+   /*
+   public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter The Number of Which Table You Want : ");
+        int num1 = sc.nextInt();
+
+        System.out.println("Till How many Number You Want the Table : ");
+        int num2 = sc.nextInt();
+
+        System.out.println("Multiplication Table:-");
+        for(int i = 1 ; i<=num2 ; i++){
+            System.out.println(num1 + " x " + i + " = " + (i*num1));
+        }
+        sc.close();
+   }
+   */
+
+   // 15. Reverse a Number:-
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Numbers: ");
+        int num1 = sc.nextInt();
+
+        int reversed_num = 0;
+        int quitoent = num1;
+
+        while(quitoent!=0){
+            int remainder = 0;
+            remainder = quitoent % 10;
+            reversed_num = reversed_num * 10 + remainder;
+            quitoent /= 10;
+        }
+        System.out.println("Original Number : " + num1);
+        System.out.println("Reversed Number : " + reversed_num);
+        sc.close();
     }
     */
 }
