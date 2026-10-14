@@ -287,4 +287,38 @@ public class practice{
         sc.close();
     }
     */
+
+    // 16. Print all Prime numbers from 1 to 100:-
+    /*
+    public static void main(String[] args) {
+        int num = 2;
+        while (num<=100){
+            boolean is_prime = true;
+            for(int i=2;i<num;i++){
+                if(num%i==0){
+                    is_prime=false;
+                }
+            }
+            if(is_prime){
+                    System.out.println("Prime : " + num);
+            }
+            num++;
+        }
+    }
+    */
+
+    // 17. Print all Integers that are divisible by 7 B/W 50 to 100:-
+    /*
+    public static void main(String[] args) {
+        for(int i=50;i<=100;i++){
+            if(i%7==0){
+                System.out.println(i);
+            }else{
+                continue;
+            }
+        }
+    }
+    */
+
+    // 18. 
 }
