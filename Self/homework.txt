@@ -1,0 +1,1 @@
+1. Which type of data is stored during an method enters method call stack?

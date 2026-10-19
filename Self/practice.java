@@ -593,4 +593,178 @@ public class practice{
         }
     }
     */
+
+    // 29.
+    /*
+    // Hello, Kadehara Kazuha
+    // Nice to Meet You!
+    static void greeting(String name){
+        System.out.println("Hello, " + name);
+        System.out.println("Nice to Meet You!");
+    }
+
+    public static void main(){
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter Your Name : ");
+        String name = sc.nextLine();
+        greeting(name);
+    }
+
+    */
+
+    // 30. 
+    // Enter 1st Number : 
+    // 15
+    // Enter 2nd Number : 
+    // 71
+    // Sum of 15 + 71 is 86
+    /*
+    static int add(int a, int b){
+        System.out.println("Sum of " + a + " + " + b + " is " + (a+b));
+        return 0;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter 1st Number : ");
+        int a = sc.nextInt();
+        
+        System.out.println("Enter 2nd Number : ");
+        int b = sc.nextInt();
+        
+        add(a, b);
+    }
+    */
+
+    // 31.
+    // 41
+    // false
+    /*
+    static boolean check(int num){
+        if(num%2==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a Number : ");
+        int n = sc.nextInt();
+
+        boolean result = check(n);
+        System.out.println(result);
+    }
+    */
+
+    // 32.
+    // Enter 1st Number : 
+    // 42342
+    // Enter 2nd Number : 
+    // 4123432
+    // Maximum b/w them is : 4123432
+    /*
+    static int max(int a , int b){
+        if(a > b){
+            return a;
+        }
+        else{
+            return b;
+        }
+    }
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter 1st Number : ");
+        int a = sc.nextInt();
+        
+        System.out.println("Enter 2nd Number : ");
+        int b = sc.nextInt();
+
+        System.out.println("Maximum b/w them is : " + max(a, b));
+    }
+    */
+
+    // 33.
+    // Enter Marks Obtained : 
+    // 93
+    // Enter Total Marks : 
+    // 100
+    // Percentage = 93.0
+    /*
+    static float percentage(int o , int t){
+        float perc = ((float)o * 100/ t);
+        System.out.printf("Percentage = " + perc);
+        return 0;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Marks Obtained : ");
+        int a = sc.nextInt();
+        
+        System.out.println("Enter Total Marks : ");
+        int b = sc.nextInt();
+
+        percentage(a,b);
+    }
+    */
+
+    // 34.
+    // Enter your Name : 
+    // Kazuha
+    // Enter Total Marks : 
+    // 98321.43
+    // Name : Kazuha
+    // Salary is : 98321.43
+    /*
+    static int display(float salary){
+        System.out.println("Salary is : " + (float)salary);
+        return 0;
+    }
+
+    static int display(String name){
+        System.out.println("Name : " + name);
+        return 0;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter your Name : ");
+        String name = sc.nextLine();
+
+        System.out.println("Enter Total Marks : ");
+        float b = sc.nextFloat();
+
+        display(name);
+        display(b);
+    }
+    */
+
+    // 35.
+    // Before calling Update Method : 5
+    // Inside Update Before Updating : 5
+    // Inside Update After Updating : 55
+    // After Called by Update Method : 5
+    /*
+    static void update(int x){
+        System.out.println("Inside Update Before Updating : " + x);
+        x += 50;
+        System.out.println("Inside Update After Updating : " + x);
+    }
+
+    public static void main(String[] args) {
+        int x = 5;
+        System.out.println("Before calling Update Method : " + x);
+        update(x);
+        System.out.println("After Called by Update Method : " + x);
+    }
+    */
 }
