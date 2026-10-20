@@ -767,4 +767,33 @@ public class practice{
         System.out.println("After Called by Update Method : " + x);
     }
     */
+
+    // 36.
+    // Enter a Number to Check Whether it's Perfect Number or Not : 
+    // 28
+    // Yes, 28 it's a Perfect Number:)
+    static void check(int num){
+        int checked = 0;
+        for(int i=1;i<num;i++){
+            if(num%i==0){
+                checked += i;
+            }
+        }
+        if(num<=0  || checked!=num){
+            System.out.println("No, " + num + " it's not a Perfect Number:(");
+            return;
+        }else{
+            System.out.println("Yes, " + " it's a Perfect Number:)");
+            return;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number to Check Whether it's Perfect Number or Not : ");
+        int n = sc.nextInt();
+
+        check(n);
+        sc.close();
+    }
 }

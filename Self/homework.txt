@@ -1,1 +1,11 @@
 1. Which type of data is stored during an method enters method call stack?
+Ans => When a method enters the call stack, the runtime environment creates a data structure called a stack frame.
+->Local Variables: Primitive values and object references declared locally inside the method body.
+
+->Parameters / Arguments: The values or references passed into the method by the caller.
+
+->Return Address: A pointer or memory address indicating where execution should resume in the calling method once the current method finishes executing.
+
+->Operand Stack / Evaluation Stack: Temporary workspace used by the CPU or virtual machine (like the JVM) to evaluate expressions, perform intermediate calculations, and pass values between instructions.
+
+->Frame Data / Reference to Constant Pool: Metadata specific to the method's execution, such as pointers to the runtime constant pool or exception dispatch information.
