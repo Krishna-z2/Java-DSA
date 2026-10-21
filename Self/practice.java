@@ -772,6 +772,7 @@ public class practice{
     // Enter a Number to Check Whether it's Perfect Number or Not : 
     // 28
     // Yes, 28 it's a Perfect Number:)
+    /*
     static void check(int num){
         int checked = 0;
         for(int i=1;i<num;i++){
@@ -796,4 +797,52 @@ public class practice{
         check(n);
         sc.close();
     }
+    */
+
+    // 37. Decalre an integer array and print all elements:-
+    // Values are 12
+    // Values are 13
+    // Values are 14
+    // Values are 15
+    // Values are 1
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int[] arr = new int[5];
+        int size = arr.length;
+        for(int i = 0; i<=size-1 ; i++){
+            System.out.println("Enter Value for " + i + " index : ");
+            arr[i] = sc.nextInt();
+        }
+        for(int val: arr){
+            System.out.println("Values are " + val);
+        }
+    }
+    */
+
+    // 38. Print the Second highest Number in an Array:-
+    // 10
+    // 8
+    /*
+    public static void main(String[] args) {
+        int[] arr = {10,8,10,7};
+        int n = arr.length;
+        int max_value = arr[0];
+        int max2_value = Integer.MIN_VALUE;
+
+        for(int i=1;i<=n-1;i++){
+            if(arr[i] > max_value){
+                max2_value = max_value;
+                max_value = arr[i];
+            }
+                else if(arr[i] > max2_value  && arr[i] < max_value){
+                max2_value = arr[i];
+            }
+        }
+        System.out.println(max_value);
+        System.out.println(max2_value);
+    }
+    */
 }
+
