@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class practice{
@@ -844,5 +845,28 @@ public class practice{
         System.out.println(max2_value);
     }
     */
+
+    // 39. Sorting an Array without using another Array:-
+    // [1, 4, 5, 7, 32, 38, 43, 45, 63]
+    /*
+    public static void main(String[] args) {
+        int[] arr = {32,1,4,43,7,45,63,5,38};
+        int n = arr.length;
+        int start = 0;
+
+
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<=n-1;j++){
+                if(arr[j] < arr[i]){
+                    start = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = start;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+    */
+   
 }
 

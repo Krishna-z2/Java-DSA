@@ -103,4 +103,54 @@ public class array{
     */
 
     // 6. 2-D Array:-
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // Declaration:-
+        // int[][] arr;
+        
+        // Allocation:-
+        // arr = new int[3][4];
+
+        // Init:-
+        // int [][] brr = {{1,2},{3,4},{5,6},{7,8}};
+
+        // Accessing 1 element at a time:-
+        // System.out.println("Row 0 and Column 1 : " + brr[0][0]);
+        // System.out.println("Row 3 and Column 0 : " + brr[3][0]);
+
+        // int rowlength = brr.length;
+        // int collenght = brr[0].length;
+        // if columns have diff length then find it's length everytime inside the loop for every row.
+
+        // // Accessing Whole Matrix:-
+        // for(int row = 0; row<=rowlength-1 ; row++){
+        //     for(int col = 0 ; col<=collenght-1 ; col++){
+        //         System.out.print(brr[row][col] + "  ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // Input / Output in 2-D Array:-
+        // int[][] arr1 = new int[2][4];
+
+        // int rowlength = arr1.length;
+        // int collenght = arr1[0].length;
+
+        // for(int i=0;i<=rowlength-1;i++){
+        //     for(int j=0;j<=collenght-1;j++){
+        //         System.out.println("Enter Value for row : " + i + " and columns : " + j);
+        //         arr1[i][j] = sc.nextInt();
+        //     }
+        // }
+
+        // for(int i=0;i<=rowlength-1;i++){
+        //     for(int j=0;j<=collenght-1;j++){
+        //         System.out.print(arr1[i][j] + " ");
+        //     }
+        //     System.out.println();
+        // }
+    }
+    */
 }
