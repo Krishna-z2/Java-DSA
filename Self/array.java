@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 public class array{
     // 1 Basics:-
@@ -153,4 +154,126 @@ public class array{
         // }
     }
     */
+
+    // 7. Find the Sum of total values in a 2-D Array:-
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the Number of Rows:-");
+        int r = sc.nextInt();
+
+        System.out.println("Etner the Number of Columns:-");
+        int c = sc.nextInt();
+
+        int[][] arr = new int[r][c];
+
+        int rowlength = arr.length;
+        int collength;
+        int sum = 0;
+
+        for(int i=0;i<=rowlength-1;i++){
+            collength = arr[i].length;
+            for(int j=0;j<=collength-1;j++){
+                System.out.println("Enter the value for Row : " + i + " and Column : " + j);
+                arr[i][j] = sc.nextInt();
+            }
+        }
+
+        System.out.println("2-D Array:-");
+
+        for(int i=0;i<=rowlength-1;i++){
+            collength = arr[i].length;
+            for(int j=0;j<=collength-1;j++){
+                sum += arr[i][j];
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("Total Sum of 2-D Array: " + sum);
+    }
+    */
+
+    // 8. Find the Multiplication of an 2-D Array:-
+    /*
+        public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the Number of Rows:-");
+        int r = sc.nextInt();
+
+        System.out.println("Etner the Number of Columns:-");
+        int c = sc.nextInt();
+
+        int[][] arr = new int[r][c];
+
+        int rowlength = arr.length;
+        int collength;
+        int sum = 1;
+
+        for(int i=0;i<=rowlength-1;i++){
+            collength = arr[i].length;
+            for(int j=0;j<=collength-1;j++){
+                System.out.println("Enter the value for Row : " + i + " and Column : " + j);
+                arr[i][j] = sc.nextInt();
+            }
+        }
+
+        System.out.println("2-D Array:-");
+
+        for(int i=0;i<=rowlength-1;i++){
+            collength = arr[i].length;
+            for(int j=0;j<=collength-1;j++){
+                sum *= arr[i][j];
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("Total Sum of 2-D Array: " + sum);
+    }
+    */
+
+    // 9. Find the Maximum and Minimum in an 2-D Array:-
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the Number of Rows:-");
+        int r = sc.nextInt();
+
+        System.out.println("Etner the Number of Columns:-");
+        int c = sc.nextInt();
+
+        int[][] arr = new int[r][c];
+
+        int rowlength = arr.length;
+        int collength;
+
+        for(int i=0;i<=rowlength-1;i++){
+            collength = arr[i].length;
+            for(int j=0;j<=collength-1;j++){
+                System.out.println("Enter the value for Row : " + i + " and Column : " + j);
+                arr[i][j] = sc.nextInt();
+            }
+        }
+
+        int max_value = arr[0][0];
+        int min_value = arr[0][0];
+
+        for(int i=0;i<=rowlength-1;i++){
+            collength = arr[i].length;
+            for(int j=0;j<=collength-1;j++){
+                System.out.print(arr[i][j] + "  ");
+                if(max_value < arr[i][j]){
+                    max_value = arr[i][j];
+                }else if(min_value > arr[i][j]){
+                    min_value = arr[i][j];
+                }
+            }
+            System.out.println();
+        }
+        System.out.println("Max Value : " + max_value + " Min Value : " + min_value);
+    }
+    */
+   
 }

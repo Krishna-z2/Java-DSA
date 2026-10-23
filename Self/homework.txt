@@ -9,3 +9,6 @@ Ans => When a method enters the call stack, the runtime environment creates a da
 ->Operand Stack / Evaluation Stack: Temporary workspace used by the CPU or virtual machine (like the JVM) to evaluate expressions, perform intermediate calculations, and pass values between instructions.
 
 ->Frame Data / Reference to Constant Pool: Metadata specific to the method's execution, such as pointers to the runtime constant pool or exception dispatch information.
+
+2. What is String Builder?
+Ans => 

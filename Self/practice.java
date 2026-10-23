@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.text.BreakIterator;
 import java.util.*;
 
 public class practice{
@@ -868,5 +869,39 @@ public class practice{
     }
     */
    
+    // 40. Check whether an Array is Sorted or not:-
+    /*
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Number of Elements in a Array:-");
+        int r = sc.nextInt();
+
+        int[] arr = new int[r];
+        int n = arr.length;
+
+        for(int i=0;i<=n-1;i++){
+            System.out.println("Enter Element for index : " + i);
+            arr[i] = sc.nextInt();
+        }
+
+        boolean check = false;
+
+        searchLoop:
+        for(int i=0;i<=n-1;i++){
+            for(int j=i+1;j<=n-1;j++){
+                if(arr[i] > arr[j]){
+                    check = true;
+                    break searchLoop;
+                }
+            }
+        }
+        if(check){
+            System.out.println("Array is Not Sorted");
+        }else{
+            System.out.println("Array is sorted");
+        }
+    }
+    */
 }
 
