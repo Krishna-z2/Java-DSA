@@ -903,5 +903,27 @@ public class practice{
         }
     }
     */
+
+    // 41. Find Duplicates Elements:-
+    // public static void main(String[] args) {
+    //     int[] arr = {2, 4, 3, 2, 5, 4, 6};
+    //     int n = arr.length;
+
+    //     int count = 0;
+    //     int[] arr1 = new int[n];
+
+    //     for(int i=0 ; i<=n-1 ; i++){
+    //         for(int j=i+1 ; j<=n-1 ; j++){
+    //             if(arr[i] == arr[j]){
+    //                 arr1[count] = arr[j];
+    //                 count++;
+    //             }
+    //         }
+    //     }
+    //     int[] finaled = Arrays.copyOf(arr1, count);
+    //     System.out.println("Duplicates Elements are : " + Arrays.toString(finaled));
+    // }
+
+    
 }
 
